@@ -4,7 +4,7 @@
   "description": "ericmaicon.com.br site",
   "main": "index.js",
   "repository": "ericmaicon/ericmaicon.com.br.git",
-  "homepage": "http://gitname.github.io/react-gh-pages",
+  "homepage": "http://rodoflho.github.io/rodtimoteo.com",
   "contributors": [
     {
       "name": "Eric Maicon",
@@ -14,7 +14,9 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon --watch server --exec babel-node -- server.js",
-    "prod": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.prod.js"
+    "prod": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.prod.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
