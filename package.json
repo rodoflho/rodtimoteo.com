@@ -4,6 +4,7 @@
   "description": "ericmaicon.com.br site",
   "main": "index.js",
   "repository": "ericmaicon/ericmaicon.com.br.git",
+  "homepage": "http://gitname.github.io/react-gh-pages",
   "contributors": [
     {
       "name": "Eric Maicon",
@@ -20,6 +21,7 @@
     "classnames": "^2.2.5",
     "font-awesome": "^4.7.0",
     "history": "^4.6.3",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-addons-shallow-compare": "^15.6.0",
@@ -46,7 +48,7 @@
     "extended-define-webpack-plugin": "^0.1.3",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
-    "node-sass": "^4.5.3",
+    "gh-pages": "^2.2.0",
     "nodemon": "^1.11.0",
     "react-hot-loader": "^1.3.1",
     "sass-loader": "^6.0.6",
