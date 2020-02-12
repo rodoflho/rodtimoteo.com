@@ -17,6 +17,6 @@ let app = express().
     progress: true
   }))
   .get("*", (request, response) => {
-    response.sendFile(path.join(__dirname, "./dist/index.html"))
+    response.sendFile(path.join(__dirname, "./docs/index.html"))
   })
   .listen(8080, () => console.log("Running on 0.0.0.0:8080"))
