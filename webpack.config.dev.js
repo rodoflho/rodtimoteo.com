@@ -16,7 +16,7 @@ export default {
     ]
   },
   output: {
-    path: path.join(__dirname, "docs"),
+    path: path.join(__dirname, "dist"),
     publicPath: "/",
     filename: "bundle.js"
   },
